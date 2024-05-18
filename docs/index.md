@@ -29,6 +29,3 @@ features:
     title: 灵活扩展
     details: 支持自定义步骤、条件和操作，满足各种复杂需求。
 ---
-<script lang="ts" setup>
-
-</script>
