@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "LowFlow",
     description: "中国式工作流系统",
-    base: '/',
+    base: '/low-flow-docs/',
     head: [
         ['link', {rel: 'icon', href: '/assets/favicon.svg'}],
     ],
@@ -20,7 +20,7 @@ export default defineConfig({
         nav: [
             {text: '主页', link: '/'},
             {text: '快速开始', link: '/quick-start'},
-            {text: '更新日志', link: '/update-logs'},
+            {text: '👥加入群聊', link: '/group-chat'},
             {
                 text: '开源地址',
                 items: [
