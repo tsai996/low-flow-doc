@@ -6,7 +6,7 @@ hero:
   name: "LowFlow"
   tagline: 这是一个简单、高效且易用的工作流系统。
   image:
-    src: /assets/logo.svg
+    src: /logo.svg
     alt: LowFlow Logo
   actions:
     - theme: brand

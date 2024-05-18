@@ -12,7 +12,7 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         siteTitle: 'LowFlow',
-        logo: '/assets/logo.svg',
+        logo: '/logo.svg',
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2019-present Evan You',
