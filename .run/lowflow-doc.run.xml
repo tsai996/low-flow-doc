@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="lowflow-doc" type="docker-deploy" factoryName="dockerfile" server-name="阿里云">
+    <deployment type="dockerfile">
+      <settings>
+        <option name="imageTag" value="lowflow-doc" />
+        <option name="containerName" value="lowflow-doc" />
+        <option name="portBindings">
+          <list>
+            <DockerPortBindingImpl>
+              <option name="containerPort" value="80" />
+              <option name="hostPort" value="80" />
+            </DockerPortBindingImpl>
+          </list>
+        </option>
+        <option name="commandLineOptions" value="-restart always" />
+        <option name="sourceFilePath" value="Dockerfile" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
