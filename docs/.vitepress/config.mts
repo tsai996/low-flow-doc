@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "LowFlow",
     description: "中国式工作流系统",
-    base: '/low-flow-doc/',
+    base: '/',
     head: [
         ['link', {rel: 'icon', href: '/assets/favicon.svg'}],
     ],
